@@ -1,0 +1,6 @@
+<div>
+	<h1>Hi, I've read these books.</h1>
+	<% for @book in Book.all %>
+		<p><%= @book.title %></p>
+	<%end %>
+</div>
